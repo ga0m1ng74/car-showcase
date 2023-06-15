@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='relative'>
+      <body className='relative select-none'>
         <Navbar /> 
         {children}
         <Footer /> 
